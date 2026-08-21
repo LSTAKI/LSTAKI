@@ -1,10 +1,13 @@
 HEY, I'M TAKI 👋
 CSE (AI & DS) @ VTU
-
 Competitive Programmer • Full-Stack Developer • AI/ML Enthusiast
+
+<br />
 
 I build projects, participate in hackathons, contribute to communities,
 and explore software engineering, AI and open source.
+
+<br />
 
 🏆 Hackathons
 💻 Competitive Programming
@@ -12,7 +15,7 @@ and explore software engineering, AI and open source.
 🤖 AI / ML
 🌱 Open Source
 
-
+<br />
 
 ## PUBLIC WINNING CHAMPION
 
