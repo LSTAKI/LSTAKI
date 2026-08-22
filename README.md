@@ -1,99 +1,133 @@
-# HEY, I'M TAKI 👋
+<p align="center">
+  <img src="./header.svg" alt="TAKI ALTAF MULLA Header" width="100%" />
+</p>
 
-**CSE (AI & DS) @ Visvesvaraya Technological University (VTU)**  
-*Competitive Programmer • Full-Stack Developer • AI/ML Enthusiast*
-
-I build software projects, participate in hackathons, contribute to technical communities, and explore AI, systems engineering, and open source.
-
----
-
-### 👨‍💻 About Me
-
-I am a B.Tech Computer Science & Engineering student specializing in AI & Data Science at VTU. My focus spans algorithmic problem solving with C++, full-stack web application development, and integrating generative AI into real-world applications. Alongside coding, I actively lead web design initiatives for student organizations and engage in community developer events.
-
-- 🎓 **Degree**: B.Tech in Computer Science & Engineering (AI & DS) @ VTU
-- 💻 **Core Interests**: Competitive Programming, Full-Stack Web Development, AI/ML, Open Source
-- 🏛️ **Leadership**: Web Designing Lead @ Quantum Club VTU • GDG Belgaum Class Ambassador
+<p align="center">
+  <a href="https://github.com/LSTAKI"><img src="https://img.shields.io/badge/GitHub-LSTAKI-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/taki-mulla/"><img src="https://img.shields.io/badge/LinkedIn-TAKI_ALTAF_MULLA-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:takimulla03@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-### 🚀 Currently Exploring
+## About
 
-- 💻 **Competitive Programming**: Solving data structures and algorithmic challenges in C++
-- 🌐 **Full-Stack & AI**: Developing scalable web platforms using Next.js, Node.js, and Google GenKit / Firebase AI
-- ⚙️ **Systems & Security**: Learning Rust, Linux environment internals, and cybersecurity concepts
+I'm **Taki Altaf Mulla** (`LSTAKI`) — a **B.Tech (AI & Data Science)** student at **VTU Belagavi** focused on:
 
----
-
-### 🛠️ Tech Stack
-
-- **Languages**: C • C++ • Python • JavaScript • TypeScript • Dart
-- **Frontend**: React • Next.js • Vite • Tailwind CSS • Three.js • Pixi.js • Framer Motion
-- **Backend & Databases**: Node.js • Express • MongoDB • PostgreSQL • Supabase • Firebase
-- **AI & Tools**: Google GenKit • Git • GitHub • Vercel • Linux
+- **Competitive Programming & C++** (algorithms, data structures, performance optimization)
+- **Full-Stack & AI Systems** (Next.js, Node.js, Firebase AI, Google GenKit orchestration)
+- **Community Leadership & Hackathons** (GDGoC DevSprint Winner, Quantum Club VTU Lead)
 
 ---
 
-### 🏆 Achievements
+## Featured Projects
 
-#### **GDGoC Summer DevSprint**
-- 🥇 **Public Voting Winner**
-- ⭐ **Team MVP**
-
-[![Public Vote Winners Badge](https://devsprint-lime.vercel.app/api/badge/public-vote-03.svg)](https://devsprint-lime.vercel.app/verify/public-vote-03)
-
-#### **NASA Space Apps Challenge — Belagavi**
-- 📊 **Best Use of Data Award Winner**
-
----
-
-### 📦 Featured Projects
-
-#### [RescueBite](https://github.com/LSTAKI/RescueBite)
-Surplus food exchange and redistribution platform backend. Connects food donors (restaurants, caterers) with verified NGOs to rescue fresh food and reduce landfill waste.
-- **Tech Stack**: `Node.js`, `Express`, `MongoDB Atlas`, `Mongoose`, `JWT`, `Zod`, `Helmet`
-- **Key Features**: Secure authentication, RESTful APIs, document uploads, data validation
-
-#### [vtu-quantum-club](https://github.com/LSTAKI/vtu-quantum-club) • [*Live Demo*](https://vtu-quantum-club.vercel.app)
-Official web platform for Quantum Club VTU featuring 3D interactive graphics, club event portals, and student resources.
-- **Tech Stack**: `React`, `TypeScript`, `Three.js` (`@react-three/fiber`), `Vite`, `Tailwind CSS`
-- **Role**: Designed and built as Web Designing Lead
-
-#### [classroom-control](https://github.com/LSTAKI/classroom-control)
-AI-powered classroom control center for teachers to assist with digital education, lesson planning, and classroom activity management.
-- **Tech Stack**: `Next.js`, `Google GenKit AI`, `Firebase`, `React`, `Tailwind CSS`
-- **Key Features**: AI workflow integration, teacher administrative dashboard
-
-#### [mediflow-triage](https://github.com/LSTAKI/mediflow-triage)
-Intelligent hospital patient triage system designed to streamline emergency room priorities and workflow management.
-- **Tech Stack**: `Next.js`, `MongoDB`, `React`, `Tailwind CSS`, `Framer Motion`, `Radix UI`
-- **Key Features**: Emergency queue prioritization, responsive medical portal UI
-
-#### [chem-sim](https://github.com/LSTAKI/chem-sim)
-Interactive 2D chemical reaction simulator for visualizing molecular interactions in real time.
-- **Tech Stack**: `React`, `TypeScript`, `Pixi.js`, `Vite`
-- **Key Features**: Canvas rendering engine, dynamic particle interactions
-
----
-
-### 👥 Open Source & Community Leadership
-
-- 🌐 **Quantum Club VTU** — Web Designing Lead managing web portals and digital visual design.
-- 🚀 **Google Developer Group (GDG) Belgaum** — Class Ambassador facilitating student developer engagement and tech events.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/LSTAKI/RescueBite">RescueBite</a> — Surplus Food Platform</h3>
+      <p><code>Node.js</code> • <code>Express</code> • <code>MongoDB</code> • <code>Mongoose</code> • <code>JWT</code> • <code>Zod</code></p>
+      <p>Full-stack surplus food exchange platform connecting commercial food donors with verified NGOs to rescue fresh food and reduce landfill waste.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/LSTAKI/vtu-quantum-club">vtu-quantum-club</a> • <a href="https://vtu-quantum-club.vercel.app">Live Demo</a></h3>
+      <p><code>React</code> • <code>TypeScript</code> • <code>Three.js</code> • <code>Vite</code> • <code>Tailwind CSS</code></p>
+      <p>Official interactive web portal for Quantum Club VTU featuring 3D graphics, event registration systems, and student developer resources.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/LSTAKI/classroom-control">classroom-control</a> — AI Center</h3>
+      <p><code>Next.js</code> • <code>Google GenKit AI</code> • <code>Firebase</code> • <code>React</code> • <code>Tailwind</code></p>
+      <p>AI-powered classroom control center for teachers to digitize education, automate lesson planning, and streamline classroom management.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/LSTAKI/mediflow-triage">mediflow-triage</a> — Smart Triage</h3>
+      <p><code>Next.js</code> • <code>MongoDB</code> • <code>React</code> • <code>Tailwind CSS</code> • <code>Framer Motion</code></p>
+      <p>Intelligent hospital patient triage system designed to streamline emergency room priority queues and medical workflow management.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/LSTAKI/chem-sim">chem-sim</a> — 2D Reaction Simulator</h3>
+      <p><code>React</code> • <code>TypeScript</code> • <code>Pixi.js</code> • <code>Vite</code></p>
+      <p>Interactive 2D chemical reaction simulator rendering dynamic atomic and molecular interactions in real time via Pixi.js canvas engine.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/LSTAKI/firebase-ai-logic">firebase-ai-logic</a> — AI Layer</h3>
+      <p><code>React</code> • <code>TypeScript</code> • <code>Firebase</code> • <code>Tailwind CSS</code></p>
+      <p>Client-side LLM integration layer demonstrating real-time AI logic paired with Firebase cloud backend services.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
+## Tech Stack
 
-<div align="center">
+<p align="center"><b>Languages</b><br/>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TS" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+</p>
+
+<p align="center"><b>Frontend &amp; Frameworks</b><br/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
+</p>
+
+<p align="center"><b>Backend &amp; Databases</b><br/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
+
+<p align="center"><b>AI &amp; Developer Tools</b><br/>
+  <img src="https://img.shields.io/badge/Google_GenKit-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="GenKit" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+---
+
+## Achievements
+
+- **GDGoC Summer DevSprint** — 🏆 **Public Voting Winner** &amp; ⭐ **Team MVP**  
+  [![Public Vote Winners Badge](https://devsprint-lime.vercel.app/api/badge/public-vote-03.svg)](https://devsprint-lime.vercel.app/verify/public-vote-03)
+- **NASA Space Apps Challenge (Belagavi)** — 📊 **Best Use of Data Award Winner**
+
+---
+
+## Leadership
+
+- **Web Designing Lead** — Quantum Club VTU
+- **Class Ambassador** — Google Developer Group (GDG) Belgaum
+
+---
+
+## Beyond the Code
+
+I spend my time solving algorithmic challenges in C++, designing web portals for student developer communities, and building full-stack AI prototypes in hackathons.
+I enjoy building software systems for the same reason I like competitive programming: both reward structured thinking, technical precision, and curiosity.
+
+---
+
+## GitHub Stats
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=LSTAKI&show_icons=true&theme=dark&hide_border=true" alt="TAKI's GitHub Stats" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LSTAKI&layout=compact&theme=dark&hide_border=true" alt="Top Languages" height="150" />
-</div>
+</p>
 
----
-
-### 📬 Connect
-
-- **GitHub**: [@LSTAKI](https://github.com/LSTAKI)
-- **LinkedIn**: [TAKI ALTAF MULLA](https://www.linkedin.com/in/taki-mulla/)
 
