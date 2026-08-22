@@ -7,11 +7,17 @@
       <stop offset="100%" stop-color="#1a102f" />
     </linearGradient>
 
-    <!-- Accent Glow Gradient -->
+    <!-- Animated Accent Line Gradient -->
     <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1" />
-      <stop offset="50%" stop-color="#a855f7" />
-      <stop offset="100%" stop-color="#ec4899" />
+      <stop offset="0%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1; #a855f7; #ec4899; #6366f1" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#a855f7">
+        <animate attributeName="stop-color" values="#a855f7; #ec4899; #6366f1; #a855f7" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899; #6366f1; #a855f7; #ec4899" dur="6s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
     <!-- Subtle Grid Pattern -->
@@ -19,35 +25,72 @@
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
     </pattern>
 
-    <!-- Text Glow Filter -->
+    <!-- Glow Filter -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feGaussianBlur stdDeviation="10" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
+
+    <style>
+      .glow-circle-1 {
+        animation: float-glow-1 8s ease-in-out infinite alternate;
+      }
+      .glow-circle-2 {
+        animation: float-glow-2 10s ease-in-out infinite alternate;
+      }
+      .blink-cursor {
+        animation: blink-anim 1.2s step-end infinite;
+      }
+      .shimmer-text {
+        background: linear-gradient(90deg, #ffffff 0%, #a855f7 50%, #ffffff 100%);
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        animation: shine 4s linear infinite;
+      }
+
+      @keyframes float-glow-1 {
+        0% { transform: translate(0px, 0px) scale(1); opacity: 0.12; }
+        100% { transform: translate(30px, 20px) scale(1.2); opacity: 0.25; }
+      }
+      @keyframes float-glow-2 {
+        0% { transform: translate(0px, 0px) scale(1); opacity: 0.10; }
+        100% { transform: translate(-25px, -15px) scale(1.18); opacity: 0.22; }
+      }
+      @keyframes blink-anim {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes shine {
+        to { background-position: 200% center; }
+      }
+    </style>
   </defs>
 
-  <!-- Background -->
+  <!-- Background Layer -->
   <rect width="1000" height="240" rx="16" fill="url(#bg-grad)" />
   <rect width="1000" height="240" rx="16" fill="url(#grid)" />
 
-  <!-- Ambient Glow Circles -->
-  <circle cx="150" cy="50" r="100" fill="#6366f1" opacity="0.15" filter="url(#glow)" />
-  <circle cx="850" cy="190" r="120" fill="#a855f7" opacity="0.12" filter="url(#glow)" />
+  <!-- Animated Ambient Glows -->
+  <circle class="glow-circle-1" cx="150" cy="50" r="110" fill="#6366f1" filter="url(#glow)" />
+  <circle class="glow-circle-2" cx="850" cy="190" r="130" fill="#a855f7" filter="url(#glow)" />
 
-  <!-- Terminal Style Top Dots -->
-  <circle cx="35" cy="30" r="6" fill="#ef4444" opacity="0.8" />
-  <circle cx="55" cy="30" r="6" fill="#f59e0b" opacity="0.8" />
-  <circle cx="75" cy="30" r="6" fill="#10b981" opacity="0.8" />
+  <!-- Top Dots -->
+  <circle cx="35" cy="30" r="6" fill="#ef4444" opacity="0.85" />
+  <circle cx="55" cy="30" r="6" fill="#f59e0b" opacity="0.85" />
+  <circle cx="75" cy="30" r="6" fill="#10b981" opacity="0.85" />
 
-  <!-- Code Decorative Icon -->
-  <text x="940" y="42" font-family="Consolas, Fira Code, monospace" font-size="20" fill="#a855f7" opacity="0.4" text-anchor="end">&lt;/&gt;</text>
+  <!-- Code Bracket Icon with Blinking Cursor -->
+  <text x="925" y="42" font-family="Consolas, Fira Code, monospace" font-size="20" fill="#a855f7" opacity="0.5" text-anchor="end">&lt;/&gt;</text>
+  <rect class="blink-cursor" x="933" y="27" width="3" height="18" fill="#ec4899" rx="1.5" />
 
-  <!-- Main Name -->
-  <text x="500" y="115" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="800" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+  <!-- Main Name Title -->
+  <text x="500" y="115" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-weight="800" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">
     TAKI ALTAF MULLA
   </text>
 
-  <!-- Gradient Divider Line -->
+  <!-- Animated Color-Shifting Accent Line -->
   <rect x="250" y="135" width="500" height="3" rx="1.5" fill="url(#accent-grad)" />
 
   <!-- Subtitle -->
@@ -55,6 +98,6 @@
     CSE (AI &amp; DS) @ VTU Belagavi  •  Competitive Programmer  •  Full-Stack &amp; AI Systems
   </text>
 
-  <!-- Bottom Accent Line -->
+  <!-- Bottom Animated Accent Bar -->
   <rect x="0" y="234" width="1000" height="6" rx="3" fill="url(#accent-grad)" />
 </svg>
